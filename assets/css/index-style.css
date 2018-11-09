@@ -173,8 +173,9 @@ nav li a:hover {
     word-spacing: 1px;
 }
 
-.gallery-text button {
+.gallery-text i {
     margin: 20px;
+    font-size: 400%;
 }
 
 .gallery-img {
@@ -201,23 +202,51 @@ nav li a:hover {
     padding: 13px;
     font-size: 150%;
 }
+
 .media-text i {
     font-size: 800%;
     margin: 20px;
+    color: #ff0000;
 }
+
 .video {
     padding: 20px;
     margin: 0 auto;
 }
+
 .media-text header hr {
     border-top: solid #fff 2px;
     width: 30%;
     margin: 0 auto;
     padding: 10px;
 }
- .audio-wrapper {
-     float: left;
-     width: 50%;
- }
+
+.audio-wrapper {
+    float: left;
+    width: 50%;
+}
+
+/*--/--*/
+
+/*-- contact--*/
+
+.contact {
+    background-color: #fff;
+    text-align: center;
+}
+
+.contact header h3 {
+    font-size: 200%;
+    font-weight: bolder;
+    color: #000;
+    padding: 10px;
+}
+
+.contact header hr {
+    border-top: solid #EFD5C1 2px;
+    width: 30%;
+    margin: 0 auto;
+    padding: 10px;
+}
 
 /*--/--*/
