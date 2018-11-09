@@ -54,7 +54,7 @@ nav li a:hover {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 80vh;
+    height: 70vh;
 }
 
 /*--/--*/
@@ -66,8 +66,37 @@ nav li a:hover {
     width: 100%;
     text-align: center;
     color: #e3e3e3;
-    font-size: 350%;
+    font-size: 500%;
     background-color: #2a2a2a;
-    word-spacing: 150%;
+    word-spacing: 5px;
 }
 /*--/--*/
+
+/*-- about--*/
+.about {
+    background-color: #fff;
+    height: 50vh;
+    overflow: hidden;
+}
+.about-wrapper {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center
+}
+.about header h2{
+    font-size: 200%;
+    font-weight: bolder;
+    color: #000;
+    padding: 10px;
+}
+.about header hr {
+    border-top: solid lightgrey 2px;
+    width: 30%;
+    margin: 0 auto;
+    padding: 20px;
+}
+ .about main p {
+     padding: 13px;
+     font-size: 150%;
+ }
+/*-- --*/
