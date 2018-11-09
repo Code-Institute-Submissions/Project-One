@@ -129,12 +129,56 @@ nav li a:hover {
     margin: 0 auto;
     padding: 20px;
 }
- .band-members {
-     width: 90%;
-     margin: 0 auto;
- }
+
+.band-members {
+    width: 90%;
+    margin: 0 auto;
+}
+
 .member-info {
     padding: 50px;
+}
+
+/*--/--*/
+
+/*--gallery--*/
+
+.gallery {
+    background-color: #fff;
+    text-align: center;
+}
+
+.gallery-wrapper {
+    margin: 0 auto;
+    width: 75%;
+}
+
+.gallery-intro header h3 {
+    font-size: 200%;
+    font-weight: bolder;
+    color: #000;
+    padding: 10px;
+}
+
+.gallery-intro header hr {
+    border-top: solid #EFD5C1 2px;
+    width: 30%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.gallery-text p {
+    padding: 5px;
+    font-size: 150%;
+    word-spacing: 1px;
+}
+
+.gallery-text button {
+    margin: 20px;
+}
+
+.gallery-img {
+    padding: 25px;
 }
 
 /*--/--*/
