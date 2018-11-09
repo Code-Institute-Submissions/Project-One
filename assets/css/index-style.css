@@ -1,0 +1,42 @@
+/*-- universal--*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    background-color: #E5E5E5;
+}
+
+/*--/--*/
+
+/*-- Nav--*/
+
+nav {
+    text-align: center;
+    background-color: #f7b733;
+    margin: 0 auto;
+}
+
+nav li {
+    display: inline-block;
+    text-align: center;
+    width: 15%;
+    padding: 30px;
+}
+
+nav li a {
+    color: #000;
+    font-size: 210%;
+    font-weight: bold;
+}
+
+nav li a:hover {
+    color: #0375b4;
+    text-decoration: none;
+    transition: all .15s ease-in-out;
+}
+    /*--/--*/
