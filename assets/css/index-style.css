@@ -3,6 +3,7 @@
 * {
     padding: 0;
     margin: 0;
+    border: 0;
 }
 
 html,
@@ -17,8 +18,8 @@ body {
 
 nav {
     text-align: center;
-    background-color: #f7b733;
     margin: 0 auto;
+    background-color: #2a2a2a;
 }
 
 nav li {
@@ -32,10 +33,11 @@ nav li a {
     color: #000;
     font-size: 210%;
     font-weight: bolder;
+    color: #e3e3e3;
 }
 
 nav li a:hover {
-    color: #0375b4;
+    color: #7E8AA8;
     text-decoration: none;
     transition: all .15s ease-in-out;
 }
@@ -45,12 +47,27 @@ nav li a:hover {
 /*--banner--*/
 
 .banner {
-    background: url(../images/monkees.jpg) no-repeat center center fixed;
+    margin: 0;
+    padding: 0;
+    background: url(../images/The_Monkees.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 70vh;
+    height: 80vh;
 }
 
+/*--/--*/
+
+/*-- we are--*/
+.the-monkees h1{
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    color: #e3e3e3;
+    font-size: 350%;
+    background-color: #2a2a2a;
+    word-spacing: 150%;
+}
 /*--/--*/
