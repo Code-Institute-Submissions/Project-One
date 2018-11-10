@@ -37,7 +37,7 @@ nav li a {
 }
 
 nav li a:hover {
-    color: #7E8AA8;
+    color: #EFD5C1;
     text-decoration: none;
     transition: all .15s ease-in-out;
 }
@@ -131,8 +131,8 @@ nav li a:hover {
 }
 
 .band-members {
-    width: 90%;
     margin: 0 auto;
+    width: 80%;
 }
 
 .member-info {
@@ -175,7 +175,7 @@ nav li a:hover {
 
 .gallery-text i {
     margin: 20px;
-    font-size: 400%;
+    font-size: 700%;
 }
 
 .gallery-img {
@@ -204,9 +204,12 @@ nav li a:hover {
 }
 
 .media-text i {
-    font-size: 800%;
+    font-size: 900%;
     margin: 20px;
     color: #ff0000;
+}
+.media-text i:hover {
+    color: #ba0000;
 }
 
 .video {
