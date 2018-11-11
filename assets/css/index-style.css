@@ -80,7 +80,7 @@ nav li a:hover {
 
 .about {
     background-color: #fff;
-    height: 50vh;
+    height: 65vh;
     overflow: hidden;
 }
 
@@ -108,6 +108,11 @@ nav li a:hover {
 .about main p {
     padding: 13px;
     font-size: 150%;
+}
+
+.about main i {
+    margin: 20px;
+    font-size: 700%;
 }
 
 /*--/--*/
