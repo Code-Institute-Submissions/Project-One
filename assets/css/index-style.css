@@ -303,7 +303,8 @@ footer .twitter:hover {
 }
 
 .footer .yt:hover {
-    color: #ba0000;;
+    color: #ba0000;
+    ;
 }
 
 .footer .insta {
@@ -322,6 +323,67 @@ footer .twitter:hover {
     display: inline-block;
     position: relative;
     bottom: 8px;
-    
+
 }
+
+/*--/--*/
+
+/*-- burger nav icon --*/
+
+.menu {
+    margin: 0px;
+    background-color: #2a2a2a;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    height: 50px;
+    font-size: 200%;
+    margin: 0 auto;
+    font-family: 'Spicy Rice', cursive;
+    padding-top: 30px;
+    display: none;
+}
+
+label {
+    margin: 0 40px 0 0;
+    font-size: 70px;
+    color: #fff;
+    background-color: #2a2a2a;
+    line-height: 70px;
+    width: 71px;
+    display: none;
+}
+
+#toggle {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    label {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+        margin: 0;
+        background-color: #2a2a2a;
+    }
+    .menu a {
+        display: block;
+        margin: 0 auto;
+    }
+    .menu a:hover {
+        color: #FF9735;
+        transition: all .3s ease-in-out;
+    }
+    #toggle:checked+.menu {
+        display: block;
+    }
+}
+
 /*--/--*/
