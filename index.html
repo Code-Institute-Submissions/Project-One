@@ -18,12 +18,12 @@
         <label for="toggle">&#9776</label>
         <input type="checkbox" id="toggle" />
         <div class="menu">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Meet The Band</a>
-            <a href="#">Gallery</a>
-            <a href="#">Our Music</a>
-            <a href="#">Contact Us</a>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#meet">Meet The Band</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#media">Our Music</a>
+            <a href="#form">Contact Us</a>
         </div>
         <ul>
             <li><a href="#home">Home</a></li>
@@ -38,9 +38,7 @@
 
 
     <!-- banner-->
-    <section class="banner">
-
-    </section>
+    <div class="banner"></div>
     <!-- -->
 
     <!-- we are the monkees-->
@@ -53,22 +51,20 @@
 
     <!-- about-->
     <section class="about container-fluid" id="about">
-        <div class="about-wrapper">
-            <header>
-                <h2>About The Band</h2>
-                <hr/>
-            </header>
-            <main>
-                <p>With over 50 years experience, and several number one hits; the Monkee's are truly honoured with the career they have been given.</p>
+        <header>
+            <h2>About The Band</h2>
+            <hr/>
+        </header>
+        <main>
+            <p>With over 50 years experience, and several number one hits; the Monkee's are truly honoured with the career they have been given.</p>
 
-                <p>The 4 boys (Davy Jones, Micky Dolenz, Michael Nesmith & Peter Tork) have hit the heights of any rock band from the 60's in the USA. Many hits such as "I'm a Believer" and "Last Train to Clarksville" touched the hearts of millions worldwide!</p>
+            <p>The 4 boys (Davy Jones, Micky Dolenz, Michael Nesmith & Peter Tork) have hit the heights of any rock band from the 60's in the USA. Many hits such as "I'm a Believer" and "Last Train to Clarksville" touched the hearts of millions worldwide!</p>
 
-                <p>After retirement in the touring world, the band would like to announce the availability of performing at events such as weddings and Christmas parties.</p>
+            <p>After retirement in the touring world, the band would like to announce the availability of performing at events such as weddings and Christmas parties.</p>
 
-                <p>Click the Wikipedia logo below for a full history on the band.</p>
-                <a href="https://en.wikipedia.org/wiki/The_Monkees" target="_blank"><i class="fab fa-wikipedia-w"></i></a>
-            </main>
-        </div>
+            <p>Click the Wikipedia logo below for a full history on the band.</p>
+            <a href="https://en.wikipedia.org/wiki/The_Monkees" target="_blank"><i class="fab fa-wikipedia-w"></i></a>
+        </main>
     </section>
     <!-- -->
 
@@ -146,7 +142,7 @@
                 </header>
                 <article class="gallery-text">
                     <p>View images of The Monkees in all their glory.</p>
-                    <p>Click image to download specific image file.</p>
+                    <p>Click image to download.</p>
                     <p>Click the Facebook logo to visit The Monkees official Facebook page and see the full gallery!</p>
                     <a href="https://www.facebook.com/TheMonkees/" target="_blank"><i class="fab fa-facebook-square"></i></a>
 
@@ -203,29 +199,28 @@
     <!-- media-->
     <section class="media container-fluid" id="media">
         <article class="row">
-
-            <figure class="video col-md-6">
-                <video width="520" height="340" controls>
-                     <source src="assets/videos/video.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
-                <figcaption>"Daydream Believer" (Official Music Video)</figcaption>
-            </figure>
-
-            <aside class="media-text col-md-6">
+            <article class="media-text col-md-12">
                 <header>
                     <h3>Media</h3>
                     <hr />
                 </header>
-                <article class="media-text">
-                    <p>Have a listen to a small handful classic songs from the Monkees.</p>
-                    <p>Simple press the play button to play each piece of media.</p>
-                    <p>Dont forget to visit out Youtube channel for a full cataloge of Monkee tunes!</p>
+                <main class="media-text">
+                    <p>Have a listen to a small handful of classic songs from the Monkees.</p>
+                    <p>Simplly press the play button to play each piece of music.</p>
+                    <p>Dont forget to visit the Youtube channel for a full cataloge of Monkee tunes!</p>
                     <a href="https://www.youtube.com/channel/UCv1oY0OLtsEySHeP1TkYNqA" target="_blank"><i class="fab fa-youtube"></i></a>
-                </article>
-            </aside>
-            <div class="audio-wrapper row">
-                <figure class="audio-clip col-md-6">
+                </main>
+            </article>
+
+            <div class="media-items-wrapper row">
+                <figure class="video col-lg-12 col-md-6 col-md-xs-12">
+                    <video width="700" height="300" controls>
+                     <source src="assets/videos/video.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <figcaption>"Daydream Believer" (Official Music Video)</figcaption>
+                </figure>
+                <figure class="audio-clip col-xs-12 col-md-3">
                     <audio controls>
                     <source src="assets/audio/Clarksville.mp3" type="audio/mpeg">
                         Your browser does not support the audio element.
@@ -233,7 +228,7 @@
                     <figcaption>"Clarksville.mp3"</figcaption>
                 </figure>
 
-                <figure class="audio-clip col-md-6">
+                <figure class="audio-clip col-xs-12 col-md-3">
                     <audio controls>
                     <source src="assets/audio/Clarksville.mp3" type="audio/mpeg">
                         Your browser does not support the audio element.
@@ -241,7 +236,7 @@
                     <figcaption>"Clarksville.mp3"</figcaption>
                 </figure>
 
-                <figure class="audio-clip col-md-6">
+                <figure class="audio-clip col-xs-12 col-md-3">
                     <audio controls>
                     <source src="assets/audio/Clarksville.mp3" type="audio/mpeg">
                         Your browser does not support the audio element.
@@ -249,7 +244,7 @@
                     <figcaption>"Clarksville.mp3"</figcaption>
                 </figure>
 
-                <figure class="audio-clip col-md-6">
+                <figure class="audio-clip col-xs-12 col-md-3">
                     <audio controls>
                     <source src="assets/audio/Clarksville.mp3" type="audio/mpeg">
                         Your browser does not support the audio element.
