@@ -3,7 +3,6 @@
 * {
     padding: 0;
     margin: 0;
-    border: 0;
 }
 
 html,
@@ -123,6 +122,16 @@ nav li a:hover {
     background-color: #EFD5C1;
 }
 
+.meet img {
+    -webkit-box-shadow: 8px 11px 15px 0px rgba(0, 0, 0, 0.53);
+    -moz-box-shadow: 8px 11px 15px 0px rgba(0, 0, 0, 0.53);
+    box-shadow: 8px 11px 15px 0px rgba(0, 0, 0, 0.53);
+    border-radius: 50px 18px 18px 18px;
+    -moz-border-radius: 50px 18px 18px 18px;
+    -webkit-border-radius: 50px 18px 18px 18px;
+    border: 0px solid #000000;
+}
+
 .meet header h3 {
     font-size: 200%;
     font-weight: bolder;
@@ -154,6 +163,15 @@ nav li a:hover {
 .gallery {
     background-color: #fff;
     text-align: center;
+}
+
+.gallery img {
+    border-radius: 26px 26px 55px 26px;
+    -moz-border-radius: 26px 26px 55px 26px;
+    -webkit-border-radius: 26px 26px 55px 26px;
+    -webkit-box-shadow: 8px 11px 15px 0px rgba(0, 0, 0, 0.53);
+    -moz-box-shadow: 8px 11px 15px 0px rgba(0, 0, 0, 0.53);
+    box-shadow: 8px 11px 15px 0px rgba(0, 0, 0, 0.53);
 }
 
 .gallery-wrapper {
@@ -267,6 +285,55 @@ nav li a:hover {
     padding: 10px;
 }
 
+.contact main {
+    padding: 20px;
+}
+
+form {
+    padding: 10px;
+    width: 85%;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: #EFD5C1;
+    -webkit-box-shadow: 4px 4px 14px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 4px 4px 14px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 4px 4px 14px 0px rgba(0, 0, 0, 0.75);
+}
+
+form h4 {
+    text-align: center;
+}
+
+form h1 {
+    text-align: center;
+    margin: 0 auto;
+}
+
+form p {
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 120%;
+}
+
+form input {
+    padding: 5px;
+    border-radius: 1px;
+}
+
+.form-group {
+    padding: 15px;
+    margin: 0 auto;
+}
+
+form label {
+    text-align: center;
+    padding: 10px;
+}
+
+
+
 /*--/--*/
 
 /*-- footer--*/
@@ -348,7 +415,7 @@ footer .twitter:hover {
     display: none;
 }
 
-label {
+.burger-label {
     margin: 0 40px 0 0;
     font-size: 50px;
     color: #fff;
@@ -363,7 +430,7 @@ label {
 }
 
 @media (max-width: 767px) {
-    label {
+    .burger-label {
         display: block;
         margin: 0 auto;
         width: 100%;

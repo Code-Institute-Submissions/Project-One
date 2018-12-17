@@ -6,16 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>The Monkees | Offical Homepage</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Poppins|Spicy+Rice" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/index-style.css" type="text/css" />
+</head>
 </head>
 
 <body>
     <!-- nav-->
     <nav class="container-fluid navbar-transparent" id="home">
-        <label for="toggle">&#9776</label>
+        <label class="burger-label" for="toggle">&#9776</label>
         <input type="checkbox" id="toggle" />
         <div class="menu">
             <a href="#home">Home</a>
@@ -57,7 +58,7 @@
         </header>
         <main>
             <p>Originally forming in LA for a TV show. The monkees enjoyed great careers both from television and music.</p>
-            
+
             <p>With over 50 years experience, and several number one hits; the Monkee's are truly honoured with the career they have been given.</p>
 
             <p>The 4 boys (Davy Jones, Micky Dolenz, Michael Nesmith & Peter Tork) have hit the heights of any rock band from the 60's in the USA. Many hits such as "I'm a Believer" and "Last Train to Clarksville" touched the hearts of millions worldwide!</p>
@@ -186,7 +187,7 @@
                     </figure>
                 </article>
 
-                <article class="gallery-img col-sm-6 col-md-4 col-lg-4" >
+                <article class="gallery-img col-sm-6 col-md-4 col-lg-4">
                     <figure>
                         <a href="assets/images/monkees-logo-wht.png" download><img src="assets/images/monkees-logo-wht.png" alt="monkees logo image" class="img-thumbnail"></a>
                         <figcaption></figcaption>
@@ -212,47 +213,48 @@
                     <a href="https://www.youtube.com/channel/UCv1oY0OLtsEySHeP1TkYNqA" target="_blank"><i class="fab fa-youtube"></i></a>
                 </main>
             </article>
+        </article>
 
-            <div class="media-items-wrapper row">
-                <figure class="video col-md-12 col-xs-12 col-lg-12">
-                    <video width="700" height="300" controls>
+        <div class="media-items-wrapper row">
+            <figure class="video col-md-12 col-xs-12 col-lg-12">
+                <video width="700" height="300" controls>
                      <source src="assets/videos/video.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
-                    <figcaption>"Daydream Believer" (Official Music Video)</figcaption>
-                </figure>
-                <figure class="audio-clip col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                    <audio controls>
+                <figcaption>"Daydream Believer" (Official Music Video)</figcaption>
+            </figure>
+            <figure class="audio-clip col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <audio controls>
                     <source src="assets/audio/Clarksville.mp3" type="audio/mpeg">
                         Your browser does not support the audio element.
                     </audio>
-                    <figcaption>"Clarksville.mp3"</figcaption>
-                </figure>
+                <figcaption>"Clarksville.mp3"</figcaption>
+            </figure>
 
-                <figure class="audio-clip hidden-xs col-sm-6 col-md-6 col-lg-6">
-                    <audio controls>
+            <figure class="audio-clip hidden-xs col-sm-6 col-md-6 col-lg-6">
+                <audio controls>
                     <source src="assets/audio/Daydream Believer.mp3" type="audio/mpeg">
                         Your browser does not support the audio element.
                     </audio>
-                    <figcaption>"Daydream Believer.mp3"</figcaption>
-                </figure>
+                <figcaption>"Daydream Believer.mp3"</figcaption>
+            </figure>
 
-                <figure class="audio-clip hidden-xs hidden-sm col-md-6 col-lg-6">
-                    <audio controls>
+            <figure class="audio-clip hidden-xs hidden-sm col-md-6 col-lg-6">
+                <audio controls>
                     <source src="assets/audio/I'm a Believer.mp3" type="audio/mpeg">
                         Your browser does not support the audio element.
                     </audio>
-                    <figcaption>"I'm a Believer.mp3"</figcaption>
-                </figure>
+                <figcaption>"I'm a Believer.mp3"</figcaption>
+            </figure>
 
-                <figure class="audio-clip col-xs-12 hidden-sm col-md-6 col-lg-6">
-                    <audio controls>
+            <figure class="audio-clip col-xs-12 hidden-sm col-md-6 col-lg-6">
+                <audio controls>
                     <source src="assets/audio/Steppin' Stone.mp3" type="audio/mpeg">
                         Your browser does not support the audio element.
                     </audio>
-                    <figcaption>"Steppin' Stone.mp3"</figcaption>
-                </figure>
-            </div>
+                <figcaption>"Steppin' Stone.mp3"</figcaption>
+            </figure>
+        </div>
     </section>
     <!-- -->
 
@@ -263,9 +265,61 @@
             <hr />
         </header>
         <main>
-            <!-- www.123formbuilder.com script begins here -->
-            <script type="text/javascript" defer src="//www.123formbuilder.com/embed/4395648.js" data-role="form" data-default-width="650px"></script>
-            <!-- www.123formbuilder.com script ends here -->
+            <form action="index.html" method="post">
+                <h1>Booking Form</h1>
+                <p>Complete this form to book The Monkees. Be as accurate as possible and we will get back to you ASAP through email for more details.</p>
+                <div class="form-horizontal">
+                    <div class="form-group">
+                        <label for="name-input" class="form-label col-xs-12 col-xs-offset-">Full Name</label><br/>
+                        <input type="text" name="name" id="first" placeholder="First" required class="col-xs-5 col-xs-offset-1" />
+                        <input type="text" name="name" id="last" placeholder="Last" required class="col-xs-5 col-xs-of" />
+                    </div>
+                </div>
+                <div class="form-horizontal">
+                    <div class="form-group">
+                        <label for="email-input" class="col-xs-12">Email</label>
+                        <input type="email" name="email" placeholder="Email" required class="col-xs-10 col-xs-offset-1" /><br/>
+                    </div>
+                </div>
+                <div class="form-horizontal">
+                    <div class="form-group">
+                        <label for="phone" class="col-xs-12">Phone</label>
+                        <input type="text" name="phone" placeholder="Phone Number" required class="col-xs-10 col-xs-offset-1" />
+                    </div>
+                </div>
+                <div class="form-horizontal">
+                    <div class="form-group">
+                        <label for="radio-title" class="col-xs-12">Specifiy Event Type</label>
+                        <label for="event" class="col-xs-3">Wedding <br/>
+				<input type="radio" name="event" id="wedding" checked/>
+				</label>
+                        <label for="event" class="col-xs-3">Gig <br/>
+				<input type="radio" name="event" id="gig" />
+				</label>
+                        <label for="event" class="col-xs-3">Party <br/>
+				<input type="radio" name="event" id="party" />
+				</label>
+                        <label for="event" class="col-xs-3">Club Booking <br/>
+				<input type="radio" name="event" id="club" />
+				</label>
+                        <label for="event" class="col-xs-12">Other (Comment Below)
+				<input type="radio" name="event" id="other" />
+				</label>
+                        <input type="text" placeholder="Other" class="col-xs-10 col-xs-offset-1">
+                    </div>
+                </div>
+                <div class="form-horizontal">
+                    <div class="form-group">
+                        <label for="event-date" class="col-xs-12">Please Specify Event Date</label>
+                        <input type="date" name="date" required class="col-xs-10 col-xs-offset-1" />
+                    </div>
+                </div>
+                <div class="form-horizontal">
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary col-xs-2 col-xs-offset-5">Submit</button>
+                    </div>
+                </div>
+            </form>
         </main>
     </section>
     <!-- -->
