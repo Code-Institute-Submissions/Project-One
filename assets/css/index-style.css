@@ -330,6 +330,7 @@ form input {
 form label {
     text-align: center;
     padding: 10px;
+    font-size: 110%;
 }
 
 
@@ -453,6 +454,40 @@ footer .twitter:hover {
     #toggle:checked+.menu {
         display: block;
     }
+}
+
+/*--/--*/
+
+/*--back to top button--*/
+
+.btt-box {
+    opacity: 0.6;
+    width: 4%;
+    height: auto;
+    padding: 2px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    background-color: #ffcea0;
+    position: fixed;
+    top: 96%;
+    left: 94%;
+}
+
+.btt-box p {
+    font-family: 'Spicy Rice', cursive;
+    text-align: center;
+    font-size: 130%;
+    margin: 0 auto;
+}
+
+.btt-box a {
+    text-decoration: none;
+    color: #000;
+}
+
+.btt-box a :hover {
+    color: #00A7E6;
+    transition: ease-in-out .3s;
 }
 
 /*--/--*/
@@ -600,6 +635,7 @@ footer .twitter:hover {
         font-family: 'Poppins', sans-serif;
         color: #000;
         padding: 5px;
+        height: auto;
     }
 
     .footer header hr {
@@ -611,8 +647,20 @@ footer .twitter:hover {
     .footer main i {
         margin: 5px 5px;
         font-size: 150%;
-        /*--/--*/
     }
+    /*--/--*/
+    /*--back to top button--*/
+    .btt-box {
+        width: 5.5%;
+        position: fixed;
+        top: 96%;
+        left: 91%;
+    }
+
+    .btt-box p {
+        font-size: 80%;
+    }
+    /*--/--*/
 }
 
 @media (min-width: 480px) and (max-width: 767px) {
@@ -766,8 +814,20 @@ footer .twitter:hover {
     .footer main i {
         margin: 9px 15px;
         font-size: 250%;
-        /*--/--*/
     }
+    /*--/--*/
+    /*--back to top button--*/
+    .btt-box {
+        width: 5.5%;
+        position: fixed;
+        top: 96%;
+        left: 92.5%;
+    }
+
+    .btt-box p {
+        font-size: 80%;
+    }
+    /*--/--*/
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -878,14 +938,12 @@ footer .twitter:hover {
         color: #000;
         padding: 5px;
     }
-
     .media-text header hr {
         border-top: solid #fff 2px;
         width: 30%;
         margin: 0 auto;
         padding: 2px;
     }
-
     .media-text p {
         padding: 8px;
         font-size: 140%;
@@ -903,7 +961,6 @@ footer .twitter:hover {
         color: #000;
         padding: 5px;
     }
-
     .contact header hr {
         border-top: solid #EFD5C1 2px;
         width: 30%;
@@ -919,7 +976,6 @@ footer .twitter:hover {
         color: #000;
         padding: 5px;
     }
-
     .footer header hr {
         border-top: solid #fff 2px;
         width: 30%;
@@ -931,7 +987,19 @@ footer .twitter:hover {
         font-size: 250%;
         /*--/--*/
     }
+    /*--/--*/
+    /*--back to top button--*/
+    .btt-box {
+        width: 5.5%;
+        position: fixed;
+        top: 96%;
+        left: 93%;
+    }
 
+    .btt-box p {
+        font-size: 80%;
+    }
+    /*--/--*/
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -1080,8 +1148,20 @@ footer .twitter:hover {
     .footer main i {
         margin: 9px 15px;
         font-size: 250%;
-        /*--/--*/
     }
+    /*--/--*/
+    /*--back to top button--*/
+    .btt-box {
+        width: 5.5%;
+        position: fixed;
+        top: 96%;
+        left: 93.5%;
+    }
+
+    .btt-box p {
+        font-size: 80%;
+    }
+    /*--/--*/
 }
 
 /*--/--*/
