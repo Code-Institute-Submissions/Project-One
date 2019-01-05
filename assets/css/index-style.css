@@ -259,13 +259,10 @@ nav li a:hover {
 }
 
 .video-box {
-    border: 2px solid #fff;
+    border: 5px solid #fff;
     -webkit-box-shadow: 8px 11px 15px 0px rgba(0, 0, 0, 0.53);
     -moz-box-shadow: 8px 11px 15px 0px rgba(0, 0, 0, 0.53);
     box-shadow: 8px 11px 15px 0px rgba(0, 0, 0, 0.53);
-    border-radius: 21px 21px 21px 51px;
-    -moz-border-radius: 21px 21px 21px 51px;
-    -webkit-border-radius: 21px 21px 21px 51px;
 }
 
 .media-text header hr {
