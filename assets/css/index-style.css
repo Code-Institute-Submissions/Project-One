@@ -483,18 +483,13 @@ footer .twitter:hover {
     position: fixed;
     top: 96%;
     left: 94%;
-}
-
-.btt-box p {
-    font-family: 'Spicy Rice', cursive;
     text-align: center;
-    font-size: 130%;
-    margin: 0 auto;
 }
 
 .btt-box a {
     text-decoration: none;
     color: #000;
+    font-size: 110%;
 }
 
 .btt-box a :hover {
@@ -649,13 +644,13 @@ footer .twitter:hover {
     /*----------/----------*/
     /*----------back to top button----------*/
     .btt-box {
-        width: 5.5%;
+        width: 7.5%;
         position: fixed;
         top: 96%;
         left: 91%;
     }
-    .btt-box p {
-        font-size: 80%;
+    .btt-box i {
+        font-size: 90%;
     }
     /*----------/----------*/
 }
