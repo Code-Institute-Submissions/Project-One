@@ -472,17 +472,17 @@ footer .twitter:hover {
     top: 96%;
     left: 94%;
     text-align: center;
+    color: #000;
 }
 
-.btt-box a {
-    text-decoration: none;
+.btt-box i{
     color: #000;
     font-size: 110%;
 }
 
-.btt-box a :hover {
+.btt-box :hover {
     color: #00A7E6;
-    transition: ease-in-out .3s;
+    transition: all ease-in-out .3s;
 }
 
 /*----------/----------*/
