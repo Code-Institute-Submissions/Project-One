@@ -82,7 +82,6 @@ nav li a:hover {
     text-align: center;
 }
 
-
 .about header h2 {
     font-size: 200%;
     font-weight: bolder;
@@ -259,6 +258,11 @@ nav li a:hover {
     -moz-box-shadow: 8px 11px 15px 0px rgba(0, 0, 0, 0.53);
     box-shadow: 8px 11px 15px 0px rgba(0, 0, 0, 0.53);
 }
+
+.audio-clip-top {
+    padding-bottom: 20px;
+}
+
 /*----------/----------*/
 
 /*------------contact----------*/
@@ -590,6 +594,9 @@ footer .twitter:hover {
         width: 90%;
         height: 80%;
     }
+    .audio-clip-top {
+        padding-bottom: 20px;
+    }
     /*----------/----------*/
     /*----------contact----------*/
     .contact header h3 {
@@ -743,6 +750,9 @@ footer .twitter:hover {
     .media-items-wrapper video {
         width: 90%;
         height: 80%;
+    }
+    .audio-clip-top {
+        padding-bottom: 20px;
     }
     /*---------/----------*/
     /*----------contact----------*/
@@ -1053,6 +1063,9 @@ footer .twitter:hover {
     .media-items-wrapper video {
         width: 90%;
         height: 80%;
+    }
+    .audio-clip-top {
+        padding-bottom: 20px;
     }
     /*----------/----------*/
     /*----------contact----------*/
