@@ -263,10 +263,10 @@ nav li a:hover {
     padding-bottom: 20px;
 }
 
+
 /*----------/----------*/
 
 /*------------contact----------*/
-
 .contact {
     background-color: #fff;
     text-align: center;
@@ -333,6 +333,17 @@ form label {
     text-align: center;
     padding: 10px;
     font-size: 110%;
+}
+
+.form-control {
+    width: 80%;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.form-box {
+    width: 80%;
+    margin: 0 auto;
 }
 
 /*----------/----------*/
@@ -475,7 +486,7 @@ footer .twitter:hover {
     color: #000;
 }
 
-.btt-box i{
+.btt-box i {
     color: #000;
     font-size: 110%;
 }
@@ -1069,6 +1080,10 @@ footer .twitter:hover {
     }
     /*----------/----------*/
     /*----------contact----------*/
+    .form-box {
+        margin: 0 auto;
+        width: 80%;
+    }
     .contact header h3 {
         font-size: 210%;
         font-weight: bolder;
